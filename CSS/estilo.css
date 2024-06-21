@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5;
+}
+/*Começo do header*/
+header{
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+.logo__header{
+    width: 150px;
+    height: 100px;
+    margin-left: 43%;
+}
+.ul__header{
+    display: flex;
+    margin-left: 320px;
+    gap: 200px;
+}
+.li__header{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: uppercase;
+    list-style: none;
+}
+.li__header:hover{
+    color: rgb(84, 252, 4);
+}
+.link__menu{
+    text-decoration: none;
+}
+.link__menu:hover{
+    color: rgb(84, 252, 4);
+    text-decoration: underline white;
+}
+
+/*começo do main*/
+main{
+    text-align: justify;
+}
+.div__main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.img__main{
+    width: 100%;
+    height: auto;
+}
+.h1__main{
+    color: rgb(84, 252, 4);
+}
+.div__botao{
+    width: 100px;
+}
+.botao__assinar{
+    background-color: rgb(84, 252, 4);
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    width: 100px;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.botao__assinar:hover{
+    background-color: rgb(33, 105, 0);
+}
+.link__botao__main{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.link__botao__main:hover{
+    text-decoration: underline white;
+    color: white;
+    font-weight: bold;
+}
+/*Começo Footer*/
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 40%;
+}
+.div__footer__navegacao{
+    margin-left: 15%;
+}
+.imagem__link__footer{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.imagem__link__footer:hover{
+    width: 50px;
+    height: 50px;
+}
+.link__footer__redes{
+    text-decoration: none;
+}
+.p__footer{
+    text-align: center;
+}
+.p__link__footer{
+    color: white;
+    text-decoration: none;
+}
+.p__link__footer:hover{
+    color: rgb(84, 252, 4);
+    text-decoration: underline white;
+}
